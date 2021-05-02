@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7DHPFV"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% include header.html %}
+    <section class="allProgresh">
+        <div class="mainDiv">
+            <h2 class="m-btm">CHAOS #501 <span class="progress">in progress</span> </h2>
+
+            <div class="m-4 newTextFile">
+                
+
+                {{ content }}
+
+                
+                {% for item in site.data.contentful limit:5 offset:0 %}
+                <div class="videoPlayarea d_flex">
+                    <div class="videoImport grayBox">
+                        <a href="/pages/{{item.title  | downcase | replace: "#", "-" | replace: " ", "" }}" class="pageDetails"></a>
+                        <iframe src="https://player.vimeo.com/video/{{ item.videoid }}?background=1&autoplay=1&loop=1&autopause=false"
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="big-video"></iframe>
+                    </div>
+
+                    <div class="vdoCont alignBottom">
+                        <div class="details_box">
+                           <h3 class="heading_2nd ">{{ item.title }}</h3>
+                           <h6 class="heading_3rd">{{ item.subHeading }} </h6>
+
+
+                           {% include share-link.html %}
+                        </div>
+                     </div>
+                </div>
+
+
+                {% endfor %}
+
+               
+              
+            </div>
+        </div>
+    </section>
+
+    
+   <section class="thumSection">
+        <div class="mainDiv">
+            <div class="d_flex wrap wrapRow">
+
+                
+                {% for item in site.data.contentful offset:5 %}
+                    
+                <a href="/pages/{{item.title  | downcase | replace: "#", "-" | replace: " ", "" }} " class="thBx2">
+                    <div class="vdOth grayBox">
+                    <iframe class="video"
+                        src="https://player.vimeo.com/video/{{ item.videoid }}?background=1&autopause=1&loop=0&autoplay=0"
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <div class="iframe-cover" data-heading1="CHAOS #6" data-heading2="Clairvoyants"></div>
+    
+                    </div>
+                    <h3>{{ item.title }} <span>{{ item.subHeading }}</span></h3>
+                </a>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </section>
+    
+    
+    {% include footer.html %}
+
+  </body>
+
+</html>
