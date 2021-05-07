@@ -8,6 +8,7 @@
       <!-- End Google Tag Manager (noscript) -->
 
     {% include header.html %}
+    {% include top-video.html %}
     <section class="allProgresh">
         <div class="mainDiv">
             <h2 class="m-btm">CHAOS #501 <span class="progress">in progress</span> </h2>
@@ -21,7 +22,7 @@
                 {% for item in site.data.contentful limit:5 offset:0 %}
                 <div class="videoPlayarea d_flex">
                     <div class="videoImport grayBox">
-                        <a href="/pages/{{item.title  | downcase | replace: "#", "-" | replace: " ", "" }}" class="pageDetails"></a>
+                        <a href="/{{item.id  | downcase | replace: "#", "-" | replace: " ", "" }}/" class="pageDetails"></a>
                         <iframe src="https://player.vimeo.com/video/{{ item.videoid }}?background=1&autoplay=1&loop=1&autopause=false"
                         frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="big-video"></iframe>
                     </div>

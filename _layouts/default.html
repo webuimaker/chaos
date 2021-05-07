@@ -24,7 +24,7 @@
 </svg>
           </a>
           <div class="videoImport grayBox">
-          <iframe src="https://player.vimeo.com/video/{page.videoid}}?background=1&autoplay=1&loop=1&autopause=false" frameborder="0"
+          <iframe src="https://player.vimeo.com/video/{{page.videoid}}?background=1&autoplay=1&loop=1&autopause=false" frameborder="0"
              webkitallowfullscreen mozallowfullscreen allowfullscreen class="big-video"></iframe>
           </div>
           <div class="vdoCont vdoDetails alignBottom">
@@ -32,16 +32,16 @@
                 <!-- Menus list -->
                 <div class="menus" id="menus" style="display: none;">
                    <div class="flexDv">
-                      <a href="https://chaosoahchaos.com/1/index.html" class="copy_text">
-                         Copy Link
+                      <a href="{{site.url}}{{page.url}}" class="copy_text">
+                         Copy Link  
                       </a>
-                      <a href="https://www.addtoany.com/add_to/email?linkurl=https://chaosoahchaos.com/1/index.html" target="_blank">
+                      <a href="{{page.emailUrl}}add_to/email?linkurl={{site.url}}{{page.url}}" target="_blank">
                          Email
                       </a>
-                      <a href="https://twitter.com/intent/tweet?url=https://chaosoahchaos.com/1/index.html" target="_blank">
+                      <a href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank">
                          Twitter
                       </a>
-                      <a href="https://www.facebook.com/sharer.php?u=https://chaosoahchaos.com/1/index.html" target="_blank">
+                      <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}" target="_blank">
                          Facebook
                       </a>
                    </div>
