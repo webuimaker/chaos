@@ -1,100 +1,38 @@
+---
+nft:
 - sys:
-  videoid: 537313070
-  id: 11
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #11"
-  subHeading: Intelligence
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 537312107
-  id: 10
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #10"
-  subHeading: Emulsion
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 537300178
-  id: 9
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #9"
-  subHeading: Dissonance
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 537299347
-  id: 8
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #8"
-  subHeading: Heirloom
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 537298507
-  id: 7
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #7"
-  subHeading: Metamorph
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 533272978
-  id: 5
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #6"
-  subHeading: Clairvoyants
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 533201804
-  id: 4
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #5"
-  subHeading: Perserschutt
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 533200499
-  id: 3
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #4"
-  subHeading: Hash
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 533199571
-  id: 2
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #2"
-  subHeading: Method
-  emailUrl: https://www.addtoany.com/
-- sys:
-  videoid: 532644482
+    id: 6a18lueubdaS2DIfxwCi9b
+    created_at: !ruby/object:DateTime 2021-05-05 09:07:02.228000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-05 09:07:02.228000000 Z
+    content_type_id: nft
+    revision: 1
+  title: Human
   id: 1
-  created_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  updated_at: !ruby/object:DateTime 2021-04-12 07:58:02.873000000 Z
-  content_type_id: test
-  revision: 1
-  title: "CHAOS #1"
-  subHeading: Human
-  emailUrl: https://www.addtoany.com/
+  videoid: 532644482
+- sys:
+    id: 1u2kur5hPLXhMq3ra6eRM6
+    created_at: !ruby/object:DateTime 2021-05-05 09:07:23.377000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-05 09:07:23.377000000 Z
+    content_type_id: nft
+    revision: 1
+  title: Method
+  id: 2
+  videoid: 533199571
+- sys:
+    id: 13ycNfVb21AjOPK2VjA2o0
+    created_at: !ruby/object:DateTime 2021-05-05 09:08:08.791000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-05 09:08:08.791000000 Z
+    content_type_id: nft
+    revision: 1
+  title: Kibitzer
+  id: 3
+  videoid: 533200226
+- sys:
+    id: 74KAY9FA9qGUh7REjRfIHj
+    created_at: !ruby/object:DateTime 2021-05-05 09:08:36.044000000 Z
+    updated_at: !ruby/object:DateTime 2021-05-05 09:08:36.044000000 Z
+    content_type_id: nft
+    revision: 1
+  title: Hash
+  id: 4
+  videoid: 533200499

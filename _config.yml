@@ -26,20 +26,37 @@ url: "https://chaosoahchaos.com" # the base hostname & protocol for your site, e
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+# markdown: kramdown
+
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-datapage-generator
 
+
+
+
+
+
+contentful:
+  spaces:
+    - contentful:                              # Jekyll _data folder identifier - Required
+        space: apbqsktic3bp                 # Required
+        access_token: E0BcWbfd8xjpfuNWvs8mr2nVzYoDskCsgEYXAfMmElk          # Required
+        all_entries: true
+        destination: /
+
+
 page_gen-dirs: true #uncomment, if you prefer to generate named folders
-
-
 page_gen:
-  - data: 'contentful'
+  - data: 'contentful.nft'
     template: 'default'
-    name: 'id'
-    dir: ''
+    dir: ''    
+    name: id
+
+
 
 
 # Exclude from processing.
@@ -54,7 +71,6 @@ page_gen:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
